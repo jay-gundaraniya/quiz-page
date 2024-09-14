@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="pra12.css">
+</head>
+<body>
+    <h1>Quiz App</h1>
+    <div class="quiz">
+        <div class="question">
+            <h4>Who is the Prime Minister of India?</h4><br>
+            <input type="radio" name="q1" value="Amit Shah">Amit Shah<br>
+            <input type="radio" name="q1" value="Narendra Modi">Narendra Modi<br>
+            <input type="radio" name="q1" value="Rajnath Singh">Rajnath Singh<br>
+            <input type="radio" name="q1" value="Nirmala Sitaraman">Nirmala Sitaraman<br>
+            <button onclick="verifyAns('q1');">Verify</button>
+            <p id="q1" class="answer"></p>
+        </div>
+        <div class="question">
+            <h4>Who is the Financial Minister of India?</h4><br>
+            <input type="radio" name="q2" value="Amit Shah">Amit Shah<br>
+            <input type="radio" name="q2" value="Narendra Modi">Narendra Modi<br>
+            <input type="radio" name="q2" value="Rajnath Singh">Rajnath Singh<br>
+            <input type="radio" name="q2" value="Nirmala Sitaraman">Nirmala Sitaraman<br>
+            <button onclick="verifyAns('q2');">Verify</button>
+            <p id="q2" class="answer"></p>
+        </div>
+        <div class="question">
+            <h4>How many ODI world cup has team India won?</h4><br>
+            <input type="radio" name="q3" value="1 world cup">1 world cup<br>
+            <input type="radio" name="q3" value="2 world cup">2 world cup<br>
+            <input type="radio" name="q3" value="3 world cup">3 world cup<br>
+            <input type="radio" name="q3" value="4 world cup">4 world cup<br>
+            <button onclick="verifyAns('q3');">Verify</button>
+            <p id="q3" class="answer"></p>
+        </div>
+    </div>
+    <script src="pra12.js"></script>
+</body>
+</html>
